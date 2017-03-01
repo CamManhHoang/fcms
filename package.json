@@ -12,6 +12,8 @@
     "vue-router": "^2.1.1"
   },
   "dependencies": {
-    "vue-sweetalert": "^0.1.16"
+    "vue-sweetalert": "^0.1.16",
+    "laravel-echo": "^1.2.2",
+    "pusher-js": "^4.0.0"
   }
 }

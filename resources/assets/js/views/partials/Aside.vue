@@ -28,6 +28,14 @@
                     </router-link>
                 </ul>
             </li>
+            <li>
+                <router-link :to="{ name: 'chat' }">
+                    <span class="icon">
+                        <i class="fa fa-home"></i>
+                    </span>
+                    Chat Room
+                </router-link>
+            </li>
         </ul>
         <p class="menu-label">
             Administration

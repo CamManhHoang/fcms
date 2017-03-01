@@ -73,4 +73,13 @@ class User extends Authenticatable implements
     {
         return $this->hasMany(Task::class);
     }
+
+    /**
+     * Relationship between user and message.
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function messages()
+    {
+        return $this->hasMany(Message::class);
+    }
 }

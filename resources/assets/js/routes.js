@@ -53,6 +53,11 @@ let routes = [
                 path: '/contacts/:id',
                 component: require('./views/dashboard/contacts/Show')
             },
+            {
+                path:'/chat',
+                name: 'chat',
+                component: require('./views/dashboard/chat/Chat')
+            }
         ]
     }
 ];
